@@ -1,0 +1,87 @@
+.container-projects {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-projects h1 {
+    font-family: 'Sigmar One', cursive;
+}
+
+.projects  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project1 {
+    width: 70%;
+    height: auto;
+    min-height: 420px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.6;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.project1:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.project2 {
+    width: 70%;
+    height: auto;
+    min-height: 380px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.6;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.project2:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.project1 img {
+    width: 100%;
+    height: auto;
+}
+
+.project2 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+

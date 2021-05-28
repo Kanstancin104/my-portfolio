@@ -1,0 +1,132 @@
+.App {
+    border: 5px;
+}
+
+.mytools {
+    width: 100%;
+}
+
+.aboutpic {
+    width: 40%;
+}
+
+.aboutdiv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutdiv p {
+    font-size: 24px;
+    /* height: 100px; */
+}
+
+.aboutdiv2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutdiv3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introdescr {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutcontainer p {
+    font-size: 20px;
+}
+
+.abooutcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.aboutcontainer2 div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about1 div {
+    height: auto;
+    width: 200px;
+}
+.about2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about2 div {
+    height: auto;
+    width: 200px;
+}
+
+.aboutcontainer2 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.interests-container {
+    width: 100%;
+}
+
+.interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.interests div {
+    height: auto;
+    width: 200px;
+}
+
+.interests div img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.interests div img:hover {
+    opacity: 0.6;
+    transition: 1s;
+}

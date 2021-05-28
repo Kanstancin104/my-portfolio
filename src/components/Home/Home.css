@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
+
+.homepic {
+    width: 40%;
+}
+
+.homediv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homediv p {
+    font-size: 24px;
+    height: 100px;
+}
+
+.homediv2 {
+    width: 200px;
+}
+
+.homediv3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introdescr {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.homecontainer p {
+    font-size: 20px;
+}
+
+.homecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.container h1 {
+    font-family: 'Assistant', sans-serif !important;
+    width: 70%;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.container h4 {
+    width: 50%;
+    text-align: justify;
+    font-family: 'Assistant', sans-serif !important;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.MuiSvgIcon-root{
+    position: relative !important;
+    top: 5px !important;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home a{
+    margin-top: 10px;
+}
+
+.gbp{
+    position: relative !important;
+    top: 5px !important;
+}

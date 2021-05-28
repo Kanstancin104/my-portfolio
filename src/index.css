@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import "./components/Home/Home.css";
+@import "./components/Projects/Projects.css";
+@import "./components/About/About.css";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1;
+}
+
+.App {
+    border: 5px;
+}
+
+.calc {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+.colum {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.first div {
+    width: 100%;
+    margin: 10px;
+    min-width: 14rem;
+}
+
+.second div {
+    width: 100%;
+}
+
+.calcbox {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    box-shadow: none;
+    min-width: 14rem;
+}
+
+.calcbox div {
+    text-align: center;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+.counter {
+    font-size: 30px;
+    margin: 20px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding: 15px;
+}
+
+.clear {
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-button {
+    display: flex;
+    transform: translateY(50%);
+}
+
+.header-button .button {
+    position: relative;
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: black !important;
+    text-decoration: none;
+    font-family: 'Sigmar One', cursive;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+#indicator
+{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+#ytd-url {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 125;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background: radial-gradient(circle, rgb(60, 255, 0), rgb(0, 255, 170), white);
+  font-size: 16px;
+  font-family: 'Sigmar One', cursive;
+}
+
+a {
+    color: black !important;
+}
