@@ -43,13 +43,11 @@ function App() {
 
       </Switch>
       <div class="menu">
-        <div class="label">Follow Me</div>
+        <div class="label">Contact Me</div>
         <div class="spacer"></div>
-        <div class="item"><span>Twitter</span></div>
-        <div class="item"><span>Instagram</span></div>
-        <div class="item"><span>LinkedIn</span></div>
-        <div class="item"><span>YouTube</span></div>
-        <div class="item"><span>TikTok</span></div>
+        <div class="item"><span><a href="https://www.linkedin.com/in/kanstantsin-vienhura/">LinkedIn</a></span></div>
+        <div class="item"><span><a href="">vengurakonstant@gmail.com</a></span></div>
+        <div class="item"><span><a href="https://github.com/Kanstancin104">GitHub</a></span></div>
       </div>
     </div>
   );

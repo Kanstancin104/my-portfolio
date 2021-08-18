@@ -24,9 +24,8 @@ const Home = () => {
                 <img className="homepic" src={Mypicture} alt="mypicture" />
                 <div className="homecontainer">
                     <p>I am alumni from Wild Code Scholl</p>
-                    <p>I studied at MSLU</p>
-                    <p>I adore foreign languagues, programming</p>
-                    <p>In Bitcoin we trust!</p>
+                    <p>I studied foregn languages at MSLU</p>
+                    <p>I like to travel and learn new things!</p>
                 </div>
             </div>
         </div>
