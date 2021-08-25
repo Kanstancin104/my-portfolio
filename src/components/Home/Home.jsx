@@ -3,7 +3,6 @@ import Homepicture from '../../images/home-main.541f8179.svg'
 import Typical from 'react-typical'
 import Mypicture from '../../images/profile-pic.png'
 
-
 const Home = () => {
 
     return (
