@@ -46,7 +46,7 @@ function App() {
         <div class="label">Contact Me</div>
         <div class="spacer"></div>
         <div class="item"><span><a href="https://www.linkedin.com/in/kanstantsin-vienhura/">LinkedIn</a></span></div>
-        <div class="item"><span><a href="">vengurakonstant@gmail.com</a></span></div>
+        <div class="item"><span>vengurakonstant@gmail.com</span></div>
         <div class="item"><span><a href="https://github.com/Kanstancin104">GitHub</a></span></div>
       </div>
     </div>

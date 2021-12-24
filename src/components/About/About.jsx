@@ -1,6 +1,5 @@
 import React from 'react'
 import { Component } from 'react';
-import Homepicture from '../../images/home-main.541f8179.svg'
 import Reactpicture from '../../images/react.png'
 import JSpicture from '../../images/js.png'
 import HTMLpicture from '../../images/html.png'
@@ -33,7 +32,6 @@ export default class About extends Component {
                 </div>
                 <h1 className="skills">My Skillset</h1>
                 <div className="mytools">
-                    {/* <img className="homepic" src={Mypicture} alt="mypicture" /> */}
                     <div className="aboutcontainer2">
                         <div className="about1">
                             <div><img className="aboutpic" src={Reactpicture} alt="aboutpicture" /></div>

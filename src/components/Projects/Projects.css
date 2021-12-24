@@ -82,6 +82,30 @@
     height: auto;
 }
 
+.project4{
+    width: 70%;
+    height: auto;
+    min-height: 420px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.6;
+    transition: 1s;
+    border-radius: 10px;
+}
 
+.project4:hover {
+    opacity: 1;
+    transition: 1s;
+}
 
+.project4 img {
+    width: 100%;
+    height: auto;
+}
 
