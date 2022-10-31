@@ -3,6 +3,7 @@ import kripta from '../../images/kripta.jpg';
 import corona from '../../images/corona.jpg';
 import langapp from '../../images/langapp.png';
 import birdpic from '../../images/birdpic.PNG';
+import landingpage from '../../images/landingpage.png';
 
 const Projects = () => {
 
@@ -15,6 +16,7 @@ const Projects = () => {
                 <a href="https://vaccinator.netlify.app/"><div className="project2"><img src={corona} alt="covidpic" /></div></a>
                 <a href="https://foreignlangslearnapp.netlify.app/"><div className="project3"><img src={langapp} alt="langpic" /></div></a>
                 <a href="https://birdsongs.netlify.app/"><div className="project4"><img src={birdpic} alt="birdpic" /></div></a>
+                <a href="https://landing-page-test-task.netlify.app/"><div className="project5"><img src={landingpage} alt="landingpage" /></div></a>
             </div>
 
         </div>
